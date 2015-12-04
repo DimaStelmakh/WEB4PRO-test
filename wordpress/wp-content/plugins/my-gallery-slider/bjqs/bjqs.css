@@ -1,0 +1,46 @@
+ul.bjqs {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: none;
+}
+
+ol.bjqs-markers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ol.bjqs-markers.h-centered {
+    text-align: center;
+}
+
+ol.bjqs-markers li {
+    display: inline;
+}
+
+ol.bjqs-markers li a {
+    padding : 5px 10px;
+    background: #000;
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover {
+    background: #999;
+}
+
+p.bjqs-caption {
+    display: block;
+    width: 96%;
+    margin: 0;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+}

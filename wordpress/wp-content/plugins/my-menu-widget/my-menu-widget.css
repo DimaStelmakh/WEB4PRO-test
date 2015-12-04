@@ -1,0 +1,20 @@
+#my-menu-widget {
+    margin: -20px -25px;
+    padding: 0;
+    width: 210px;
+}
+
+#my-menu-widget li {
+    border-bottom: 1px solid #666;
+    list-style-type: none;
+}
+
+#my-menu-widget a {
+    background-color: #938394;
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 10px solid #33ADFF;
+    display: block;
+}
